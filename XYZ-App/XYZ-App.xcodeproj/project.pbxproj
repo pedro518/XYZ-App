@@ -54,14 +54,38 @@
 		E8874A6A224FF50A00033B30 /* XYZ-App */ = {
 			isa = PBXGroup;
 			children = (
+				E8874A7F224FF56200033B30 /* controller */,
+				E8874A7E224FF55D00033B30 /* view */,
+				E8874A7D224FF55400033B30 /* model */,
 				E8874A6B224FF50A00033B30 /* AppDelegate.swift */,
-				E8874A6D224FF50A00033B30 /* ViewController.swift */,
 				E8874A6F224FF50A00033B30 /* Main.storyboard */,
 				E8874A72224FF50B00033B30 /* Assets.xcassets */,
 				E8874A74224FF50B00033B30 /* LaunchScreen.storyboard */,
 				E8874A77224FF50B00033B30 /* Info.plist */,
 			);
 			path = "XYZ-App";
+			sourceTree = "<group>";
+		};
+		E8874A7D224FF55400033B30 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E8874A7E224FF55D00033B30 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E8874A7F224FF56200033B30 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8874A6D224FF50A00033B30 /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
